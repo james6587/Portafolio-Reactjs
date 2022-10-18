@@ -7,11 +7,16 @@ export const More = () => {
             <h1 className='heading'>More</h1>
 
 
-            <div className='page'>
+            <div className='page-item'>
                 <section className='spline'>
                     <Spline scene="https://prod.spline.design/sbqo3l1AHmmvMzFR/scene.splinecode" />
                 </section>
+                <section className='spline'>
+                    <Spline scene="https://prod.spline.design/OlYFZhlHSTaQgK0W/scene.splinecode" />
+                </section>
             </div>
+
+
         </div>
     )
 }

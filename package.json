@@ -2,8 +2,12 @@
   "name": "08-proyecto2",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://james6587.github.io/Portafolio-Reactjs",
+  "homepage": "https://james6587.github.io/Portafolio-Reactjs",
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.10",
     "@splinetool/react-spline": "^2.2.1",
     "@splinetool/runtime": "^0.9.90",
     "@testing-library/jest-dom": "^5.16.4",

@@ -139,8 +139,20 @@ button:hover{
 }
 
 .spline{
-  width: 1000px;
-  height: 1000px;
+  width: 500px;
+  height: 500px;
+}
+
+.page-item{
+  align-items: center;
+  display: flex;
+  margin: 20px;
+}
+
+.cont p,
+.cont a{
+  display: flex;
+  text-decoration: none;
 }
 
 input[type="text"],
