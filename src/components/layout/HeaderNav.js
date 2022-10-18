@@ -11,19 +11,19 @@ export const HeaderNav = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to="/inicio" className={({ isActive }) => isActive ? "active" : ""}>Inicio</NavLink>
+                        <NavLink to="/inicio" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portafolio" className={({ isActive }) => isActive ? "active" : ""}>Portafolio</NavLink>
+                        <NavLink to="/servicios" className={({ isActive }) => isActive ? "active" : ""}>Services</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/servicios" className={({ isActive }) => isActive ? "active" : ""}>Servicios</NavLink>
+                        <NavLink to="/curriculum" className={({ isActive }) => isActive ? "active" : ""}>Resume</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/curriculum" className={({ isActive }) => isActive ? "active" : ""}>Curriculum</NavLink>
+                        <NavLink to="/more" className={({ isActive }) => isActive ? "active" : ""}>More</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contacto" className={({ isActive }) => isActive ? "active" : ""}>Contacto</NavLink>
+                        <NavLink to="/contacto" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink>
                     </li>
                 </ul>
             </nav>
